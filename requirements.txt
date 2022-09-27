@@ -1,0 +1,11 @@
+altgraph==0.17
+certifi==2020.4.5.2
+chardet==3.0.4
+idna==2.9
+macholib==1.14
+numpy==1.18.4
+Pillow==7.1.2
+requests==2.24.0
+six==1.15.0
+urllib3==1.25.9
+wxPython==4.1.0
