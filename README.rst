@@ -1,5 +1,7 @@
-GUI Application written in Python
+GUI Application written in Python (2020 project)
 ==================================
+
+**Please note, this project is from 2020, but its commit history was deleted for privacy reasons, hence its empty commit history and single commit from 2022.**
 
 A GUI application written in Python using wxPython as a project for a past company I've worked for. The goal was to make it easier to make POST requests to a configurable environment using configurable parameters, which are then added as payload to the POST request.
 The application was product-specific, so the repository here is public for the sake of showing a project for a GUI application with Python.
