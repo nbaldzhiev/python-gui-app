@@ -2,14 +2,21 @@ name: run-formatting
 run-name: Python files formatting
 on: [push]
 jobs:
-  run-isort:
+  run-formatting:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    - run: python -m pip install isort
+    - name: Install isort
+      run: python -m pip install isort
     - name: Run isort
       run: ./.github/scripts/run_isort.sh
       shell: bash
+    - name: Install black
+      run: python -m pip install black
+    - name: Run black
+      run: ./.github/scripts/run_black.sh
+      shell: bash
+
