@@ -15,7 +15,7 @@ However, if one desires to use it from source, it needs to be installed first.
 
 It is meant to be used in a virtual environment (I've used venv) and this is going to be example here.
 It has currently been tested on MacOS 10.15.4 and Ubuntu 18.04, both on Python 3.6.8 and 3.8.3.
-It is likely that the tool would work on many other combinations of OS version/Python version,
+It is likely that the tool would work on many other combinations of OS version/Python version
 but those are the ones, which have been tested with.
 
 The instructions below use Python 3.8.3 as an example. After activating the virtual environment,
