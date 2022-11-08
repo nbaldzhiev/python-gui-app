@@ -1,0 +1,13 @@
+name: run-formatting
+run-name: Python files formatting
+on: [push]
+jobs:
+  run-isort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+	  python-version: '3.10'
+      - run: python3 -m pip install isort
+      - run: python3 -m isort --version
