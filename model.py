@@ -1,8 +1,12 @@
 """This module contains the model class of the application."""
 import json
+
+
 from typing import List, Tuple
 
 from requests import Request, Session
+
+
 from wx import LogError, LogMessage
 
 
