@@ -1,1 +1,1 @@
-from .main_view import MainView, MAX_SUBMISSIONS, MAX_DOCUMENTS
+from .main_view import MAX_DOCUMENTS, MAX_SUBMISSIONS, MainView
